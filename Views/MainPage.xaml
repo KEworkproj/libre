@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="libre.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="Black">
+            <Label
+                FontSize="30"
+                Text="Please log in"
+                TextColor="AntiqueWhite" />
+            <Label Text="Username" TextColor="White" />
+            <Entry TextColor="white" />
+            <Label Text="Password" TextColor="White" />
+            <Entry IsPassword="True" TextColor="White" />
+            <Button
+                BackgroundColor="#0094FF"
+                FontSize="40"
+                Text="Log in" />
+
+            <Button
+                BackgroundColor="white"
+                FontSize="20"
+                Text="Google login"
+                TextColor="Green" />
+            <Button
+                Background="red"
+                FontSize="30"
+                Text="I do not have an account" />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
