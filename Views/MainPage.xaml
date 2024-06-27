@@ -6,6 +6,13 @@
 
     <ScrollView>
         <VerticalStackLayout BackgroundColor="Black">
+
+
+
+
+
+
+
             <Label
                 FontSize="30"
                 Text="Please log in"
@@ -14,20 +21,40 @@
             <Entry TextColor="white" />
             <Label Text="Password" TextColor="White" />
             <Entry IsPassword="True" TextColor="White" />
-            <Button
-                BackgroundColor="#0094FF"
-                FontSize="40"
-                Text="Log in" />
 
-            <Button
-                BackgroundColor="white"
-                FontSize="20"
-                Text="Google login"
-                TextColor="Green" />
-            <Button
-                Background="red"
-                FontSize="30"
-                Text="I do not have an account" />
+            <Grid
+                Padding="30"
+                Background="White"
+                ColumnDefinitions="Auto, 40, Auto"
+                RowDefinitions="Auto,30,Auto">
+
+
+
+
+
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Padding="10"
+                    BackgroundColor="#0094FF"
+                    FontSize="40"
+                    Text="Log in" />
+                <Button
+                    Grid.Row="0"
+                    Grid.Column="3"
+                    Padding="10"
+                    BackgroundColor="Black"
+                    FontSize="20"
+                    Text="Google login"
+                    TextColor="Green" />
+                <Button
+                    Grid.Row="3"
+                    Grid.ColumnSpan="3"
+                    Padding="10"
+                    Background="red"
+                    FontSize="30"
+                    Text="I do not have an account" />
+            </Grid>
 
         </VerticalStackLayout>
 
