@@ -2,7 +2,8 @@
 <ContentPage
     x:Class="libre.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mycode="clr-namespace:libre">
 
     <ScrollView>
         <VerticalStackLayout BackgroundColor="Black">
@@ -14,12 +15,18 @@
 
 
             <Label
-                FontSize="30"
+                FontSize="34"
                 Text="Please log in"
-                TextColor="AntiqueWhite" />
-            <Label Text="Username" TextColor="White" />
+                TextColor="White" />
+            <Label
+                FontAttributes="Bold"
+                Text="Username"
+                TextColor="White" />
             <Entry TextColor="white" />
-            <Label Text="Password" TextColor="White" />
+            <Label
+                FontAttributes="Bold"
+                Text="Password"
+                TextColor="White" />
             <Entry IsPassword="True" TextColor="White" />
 
             <Grid
@@ -53,7 +60,7 @@
                     Padding="10"
                     Background="red"
                     FontSize="30"
-                    Text="I do not have an account" />
+                    Text="NOACCOUNTsignup " />
             </Grid>
 
         </VerticalStackLayout>

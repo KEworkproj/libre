@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "weV8gV+Rbs4=",
+  "dgSpecHash": "g2L3Cq45cD0=",
   "success": true,
   "projectFilePath": "C:\\Users\\mwas\\source\\repos\\libre\\libre\\libre.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mwas\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\mwas\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\mwas\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\mwas\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -113,12 +114,5 @@
     "C:\\Users\\mwas\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.7.2.1\\xamarin.kotlinx.coroutines.core.jvm.1.7.2.1.nupkg.sha512",
     "C:\\Users\\mwas\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: The download of 'https://api.nuget.org/v3-vulnerabilities/2024.06.20.23.28.51/vulnerability.base.json' timed out because no data was received for 60000ms."
-    }
-  ]
+  "logs": []
 }
